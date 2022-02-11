@@ -24,7 +24,7 @@ public class AsyncImageViewModel: ObservableObject {
     let requestedSize: CGSize
     let requestOptions: PHImageRequestOptions
     
-    @Published var image: UIImage? = nil
+    @Published public var image: UIImage? = nil
     
     public init(identifier: String,
          requestedSize: CGSize,
